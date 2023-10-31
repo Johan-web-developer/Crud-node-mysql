@@ -20,13 +20,14 @@ app.set('views', path.join(__dirname, 'views'))
 app.use(morgan('dev'));
 app.use(myConnection(mysql,{
     host: "localhost",
-    user: "campus",
-    password : "campus2023",
+    user: "root",
+    password : "",
     port : 3306,
     database : "Crud",
 
 }, 'single'));
 
+app.use(express.urlencoded({extended : false}));
 
 // routes
 
