@@ -1,4 +1,3 @@
-Por supuesto, aquí tienes el README en formato de archivo de texto:
 
 CRUD Node.js con MySQL
 =======================
